@@ -1,0 +1,63 @@
+.container{
+    width:600px;
+
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+.to-follow{
+    width:600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.suggestion{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img{
+    width: 90px;
+    height:90px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 90px;
+    margin-right: 20px;
+}
+button{
+    background-color:rgb(0, 119, 255);
+    color: white;
+    font-family: Arial;
+    font-weight:bold;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+}
+
+.name,.title,.status{
+    font-family: Arial;
+    margin:0;
+    
+}
+.title,.status{
+    color: gray;
+}
+
+.name{
+    font-size:27px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.title{
+    font-size:29px;
+    margin-bottom: 8px;
+}
+.status{
+    font-size:24px;
+}
